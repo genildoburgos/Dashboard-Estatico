@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+nav{
+    padding: 100px;
+}
+
+
+main {
+    flex: 1; /* Allow the main section to take up the remaining vertical space */
+    padding: 20px;
+}
