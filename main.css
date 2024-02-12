@@ -117,6 +117,8 @@ footer p {
     color: white;
     width: 101%;
     border-radius: 5px;
+    padding: 5px 40px 5px 10px;
+    margin: 0px 0px 5px 0px;
 }
 
 .data{
@@ -128,16 +130,18 @@ footer p {
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
-    margin-top: 8px;
+    padding-left: 5px;
+    margin-top: 6px;
+    border-radius: 5px;
 }
 
 .caixas {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-bottom: 15px;
     margin-top:15px;
   }
-  
+
   .caixa-azul, .caixa-verde, .caixa-roxa {
     width: 40%; /* Define a largura das caixas */
     padding: 10px;
@@ -188,4 +192,3 @@ footer p {
     padding-left: 10px;
     margin-top: 5px;
 }
-
